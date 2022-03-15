@@ -1,0 +1,10 @@
+### Post
+
+POST http://127.0.0.1:3000/ulcase
+Content-Type: application/json
+
+{
+ "action": "lowercase",
+ "input": "Lorem Ipsum", 
+ "output": "lorem ipsum"
+}
